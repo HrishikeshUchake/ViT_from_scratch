@@ -1,6 +1,6 @@
 import nbformat
 
-nb = nbformat.read("ViT_from_scratch.ipynb", as_version=nbformat.NO_CONVERT)
+nb = nbformat.read("fixed_maybe.ipynb", as_version=nbformat.NO_CONVERT)
 
 nb.metadata.pop("widgets", None)
 
