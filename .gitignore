@@ -1,0 +1,27 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore data folders
+data/
+datasets/
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Do NOT ignore
