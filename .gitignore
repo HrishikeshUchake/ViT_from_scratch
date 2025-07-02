@@ -18,8 +18,6 @@ datasets/
 *.npz
 *.npy
 
-clean_notebook.py
-Vit_from_scratch.ipynb
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
