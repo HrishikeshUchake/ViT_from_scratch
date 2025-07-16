@@ -1,6 +1,9 @@
 # Vision Transformer on CIFAR-10 (from scratch)
 
-Just a small project where I implemented a Vision Transformer (ViT) from scratch using PyTorch — no pretrained weights, no shortcuts. It runs on CIFAR-10 because... it's small and easy to test on.
+A lightweight project where I implemented a Vision Transformer (ViT) from scratch using PyTorch, inspired by the paper [*An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale*](https://arxiv.org/abs/2010.11929).
+
+The model is trained and tested on the CIFAR-10 dataset — chosen for its small size and ease of experimentation. This project was a hands-on dive into the ViT architecture, focusing on core components of Machine Learning.
+
 
 ---
 
