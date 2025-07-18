@@ -15,8 +15,8 @@ This project was a hands-on exploration of the core ViT architecture, aimed at u
 -  **Patch embedding** via `Conv2d` with flattening and projection
 -  Learnable **positional encodings** with a `[CLS]` token
 -  Transformer encoder blocks with:
-  - Multi-head self-attention
-  - MLP layers + GELU activation
+    - Multi-head self-attention
+    - MLP layers + GELU activation
 -  **Classification head** operating on `[CLS]` token
 -  Custom **training and evaluation** loops
 -  Grid-based **visualization** of predictions for qualitative insight
