@@ -1,4 +1,4 @@
-# 🧠 Vision Transformer (ViT) on CIFAR-10 — From Scratch
+# Vision Transformer (ViT) on CIFAR-10 — From Scratch
 
 This project implements a **Vision Transformer (ViT)** architecture from the ground up in **PyTorch**, inspired by the research paper  
 > *"An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"*  
@@ -9,21 +9,21 @@ This project was a hands-on exploration of the core ViT architecture, aimed at u
 
 ---
 
-## 📦 Features
+## Features
 
-- ✅ ViT architecture implemented **entirely from scratch**
-- 🔲 **Patch embedding** via `Conv2d` with flattening and projection
-- 📍 Learnable **positional encodings** with a `[CLS]` token
-- 🧠 Transformer encoder blocks with:
+-  ViT architecture implemented **entirely from scratch**
+-  **Patch embedding** via `Conv2d` with flattening and projection
+-  Learnable **positional encodings** with a `[CLS]` token
+-  Transformer encoder blocks with:
   - Multi-head self-attention
   - MLP layers + GELU activation
-- 🔎 **Classification head** operating on `[CLS]` token
-- 📈 Custom **training and evaluation** loops
-- 🎨 Grid-based **visualization** of predictions for qualitative insight
+-  **Classification head** operating on `[CLS]` token
+-  Custom **training and evaluation** loops
+-  Grid-based **visualization** of predictions for qualitative insight
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 1. Clone the repository:
 
@@ -40,7 +40,7 @@ pip install torch torchvision matplotlib
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 * Uses **CIFAR-10** from `torchvision.datasets`
 * Automatically downloads and normalizes the dataset
@@ -48,7 +48,7 @@ pip install torch torchvision matplotlib
 
 ---
 
-## 🖼️ Output Visualization
+##  Output Visualization
 
 After training, the model produces **color-coded grid plots** of predictions vs ground truth — useful for:
 
@@ -58,27 +58,22 @@ After training, the model produces **color-coded grid plots** of predictions vs 
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — feel free to fork, modify, and build upon the code for personal or academic use.
 
 ---
 
-## 👤 Author
+##  Author
 
 Developed by [Hrishikesh Uchake](https://github.com/HrishikeshUchake)
 
 ---
 
-## ✨ Coming Soon
+##  Coming Soon
 
 * Support for larger datasets (e.g. CIFAR-100, TinyImageNet)
 * Accuracy/loss logging with `TensorBoard`
 * CLI training and evaluation wrapper
 
-```
 
----
-
-Let me know if you'd like a badge-styled header, deployment info, or GitHub actions integration. You can copy and paste this directly into a `README.md` file.
-```
