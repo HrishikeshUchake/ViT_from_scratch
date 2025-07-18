@@ -56,6 +56,10 @@ After training, the model produces **color-coded grid plots** of predictions vs 
 * Visual confirmation of model confidence
 * Quick debugging and qualitative evaluation
 
+<img width="754" height="546" alt="Screenshot 2025-07-18 at 1 42 07 PM" src="https://github.com/user-attachments/assets/96fc4af3-9209-47a3-95a1-3ca37d4e9c93" />
+<img width="775" height="784" alt="Screenshot 2025-07-18 at 1 41 55 PM" src="https://github.com/user-attachments/assets/1b8cee93-c3ae-434f-9523-e88ac126b681" />
+
+
 ---
 
 ##  License
